@@ -1,0 +1,26 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+
+names:
+  0: angel
+  1: damsel
+  2: grouper
+  3: jack
+  4: parrot
+  5: shark
+  6: snapper
+  7: spade
+  8: surgeon
+  9: trigger
+ 10: tuna
+ 11: wrasse
+
+roboflow:
+  workspace: roboflow-gw7yv
+  project: fish-yzfml
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/roboflow-gw7yv/fish-yzfml/dataset/1
